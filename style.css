@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height:100px;
+    size:25px;
+    
+}
+.container{
+    /* background-color: aqua; */
+    width:60vw;
+    /* to bring container to center, we do->> margin:auto */
+    margin:auto;
+    /* padding from top & bottom->> 32px and padding from right & left->>0 */
+    padding:32px 0;
+    
+}
+body{
+    background-color: rgb(245, 212, 217);
+}
+
+.logo{
+    padding:0 13px;
+}
+
+.logo img{
+    width:35px;
+}
+
+h2{
+background-color: rgb(12, 7, 53);
+color:white;
+width:250px;
+text-align: center;
+font-family: 'Hind Madurai', sans-serif;
+}
+
+h3{
+    background-color: rgb(111, 182, 230);
+    color:black;
+    width:200px;
+    text-align: center;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+p{
+    font-family: 'Comfortaa', cursive;
+}
+.toolbar-item button{
+    /* as prism will take more importance/preference  so if we need to apply our own CSS to our button we need to mark it as important */
+    cursor:pointer !important;
+    color:white !important;
+    border:1px solid white !important;
+    border-radius: 15px ;
+    padding: 5px 14px !important;
+}
